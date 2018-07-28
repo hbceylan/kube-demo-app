@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: demo-app-trigger
-        image: busayr/nodejs:2.0.0
+        image: busayr/nodejs:1.0.0
         env:
         - name: PORT
           value: "80"
